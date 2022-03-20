@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GRIP-Payment-Integration/static/css/main.d3df3250.css",
+    "main.js": "/GRIP-Payment-Integration/static/js/main.792a99dc.js",
+    "static/js/787.bf0e85be.chunk.js": "/GRIP-Payment-Integration/static/js/787.bf0e85be.chunk.js",
+    "index.html": "/GRIP-Payment-Integration/index.html",
+    "main.d3df3250.css.map": "/GRIP-Payment-Integration/static/css/main.d3df3250.css.map",
+    "main.792a99dc.js.map": "/GRIP-Payment-Integration/static/js/main.792a99dc.js.map",
+    "787.bf0e85be.chunk.js.map": "/GRIP-Payment-Integration/static/js/787.bf0e85be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3df3250.css",
+    "static/js/main.792a99dc.js"
+  ]
+}
