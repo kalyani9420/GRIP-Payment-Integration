@@ -1,0 +1,256 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    margin: 0%;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.topbar{
+  background-color: rgb(148, 159, 170);
+    padding: 20px;  
+    /* top left bottom right */
+    text-align: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    box-shadow: 0px 5px 3px lightslategray;
+    /* margin-bottom: 200px; */
+    display: inline-block;
+    
+
+    
+
+  }
+
+
+
+ .topbar>  span a {
+    display: inline-block;
+    color: black;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    background-color:#e2e0e0;
+    box-shadow: 4px 3px 3px grey;
+    
+    
+
+  }
+  
+  /* Change the link color on hover */
+  span a:hover {
+
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    background-color: rgba(250, 62, 62, 0.6);
+    
+  }
+
+
+  .maincontainer{
+    
+    height: 420px;
+    width: 800px;
+    background-color: rgb(148, 159, 170);
+    border-radius: 23px;
+    box-shadow: 0px 5px 3px lightslategray;
+    margin-left: 24%;
+    /* animation: beat 3s infinite; */
+    /* animation: beat 2s  ; */
+    margin-top: 200px;
+    align-items: center;
+    border: 0ch;
+
+    
+    
+}
+.maincontainer > img{
+     margin-top: 2vw;
+     height: 150px; 
+     width: 100px;
+     margin-left: 45%;
+     animation: beat 2s infinite;
+     
+  } 
+
+  .maincontainer >h3{
+    margin-left: 36%;
+    margin-top: 0;
+    font-size: 20px;
+    text-shadow: 2px 1px 4px white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+.maincontainer > p {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+
+
+.maincontainer span a {
+  background-color:#e2e0e0;
+  margin-left: 38%;
+  padding: 30px 40px;
+  
+  border: 0ch;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  box-shadow: 5px 5px 3px rgb(106, 113, 119);
+  text-decoration: none;
+
+
+}
+
+.maincontainer span a:hover{
+
+  color: black;
+  box-shadow: 5px 5px 3px rgb(106, 113, 119);
+  cursor: pointer;
+  padding: 30px 40px;
+  border-radius: 34px;
+  border-radius: 20px;
+  background-color: rgba(250, 62, 62, 0.6);
+}
+
+@keyframes beat {
+    0%{
+      transform: scale(0.25 ,0.25 );
+      
+    }
+    50%{
+      transform:  scale(1 , 1);
+    }
+    100%{
+      transform: scale(1.50 , 1.25);
+     
+    }
+    
+  }
+
+  .aboutSection{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(207, 204, 204, 0.4); 
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-left: 40px;
+   
+  }
+
+
+  .aboutSection > h2{
+    width: 100%;
+    font-size: 20px; 
+    text-align:justify;
+   
+    /* justify-content: center; */
+
+   
+    
+    
+  }
+  .aboutDetails > p{
+    font-size: 18px;
+    /* padding: 10px 20vw 0vw; */
+    width: 45%; 
+    text-align:justify;
+    justify-content:left;
+    /* line-height: 20px; */
+  }
+
+  .aboutDetails{
+    display: flex;
+  }
+
+
+.aboutDetails>img  {
+
+
+  /* Full height */
+  height: 400px;
+  width: 670px;
+  align-items: right;
+  margin-left: 100px;
+  margin-top: 2px;
+  border-radius: 20px;
+  animation: beatImg 2s ;
+  box-shadow: 5px 3px 3px grey;
+  
+}
+
+@keyframes beatImg {
+  0%{
+    transform: scale(0.50 ,0.50 );
+    
+  }
+  100%{
+    transform: scale(1.0 , 1.0);
+   
+  }
+  
+}
+.contactSection{
+  width: 100%;
+  height: 700px;
+}
+
+.contactSection > h2{
+  text-align: center;
+  text-decoration: underline 3px black;
+  padding-top: 200px;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgb(82, 79, 79);
+
+}
+
+
+.socialLogo {
+
+       padding: 20px 20px;
+       align-items: center;
+       justify-content: center;
+       margin-left: 110px;
+       margin-top: 20px;
+       background-color: rgba(88, 86, 86, 0.4); 
+       box-shadow: 4px 3px 3px grey;
+      
+}
+
+.contactSection a :hover{
+  background-color: rgba(219, 108, 108, 0.4);
+  border-radius: 40px;
+  
+}
+
+
+.footerSection{
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(24, 23, 23, 0.10); 
+}
+
+
+
+
+
+
+
